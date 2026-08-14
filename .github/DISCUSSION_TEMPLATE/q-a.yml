@@ -1,0 +1,14 @@
+title: "Question: "
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: Explain what you are trying to achieve and where you are stuck.
+    validations:
+      required: true
+  - type: textarea
+    id: setup
+    attributes:
+      label: Setup
+      description: Include Minecraft, MipMapPlus, Sodium, resource-pack, and GPU details when relevant.

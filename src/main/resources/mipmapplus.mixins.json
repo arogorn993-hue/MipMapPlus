@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.arogorn993_hue.mipmapplus.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "OptionInstanceMixin",
+    "SpriteContentsAccessor",
+    "SpriteContentsMixin",
+    "SpriteLoaderMixin",
+    "StitcherPaddingMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

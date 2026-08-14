@@ -1,0 +1,7 @@
+{
+  "mipmapplus.options.mipmap_levels.tooltip.normal": "Level %1$s supports a complete chain for %2$s x %2$s textures. Estimated RGBA atlas VRAM = width x height x 4 bytes x 1.33. Examples: 8192 squared is about 341 MiB; 16384 squared is about 1.33 GiB. Reloading also needs temporary memory.",
+  "mipmapplus.options.mipmap_levels.tooltip.high": "High VRAM usage: level %1$s supports a complete chain for %2$s x %2$s textures. Estimated RGBA atlas VRAM = width x height x 4 bytes x 1.33. A 32768 squared atlas is about 5.33 GiB, plus temporary reload memory and other atlases.",
+  "mipmapplus.options.mipmap_levels.tooltip.extreme": "Extreme setting: level %1$s targets %2$s x %2$s textures. Estimated RGBA atlas VRAM = width x height x 4 bytes x 1.33; 32768 squared is about 5.33 GiB. GPU maximum texture dimensions can force a safe fallback even when VRAM remains.",
+  "mipmapplus.toast.fallback.title": "MipMapPlus adjusted mipmaps",
+  "mipmapplus.toast.fallback.message": "Level %1$s could not fit the block atlas, so level %2$s was used instead."
+}

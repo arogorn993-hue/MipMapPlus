@@ -1,0 +1,20 @@
+title: "Show and tell: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Share screenshots, performance observations, resource-pack combinations, and settings that work well for you.
+  - type: textarea
+    id: result
+    attributes:
+      label: What did you try?
+      description: Include your mipmap level, resource-pack resolution, GPU, Sodium settings, and anti-aliasing setup when relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: observations
+    attributes:
+      label: What did you notice?
+      description: Describe visual quality, reload time, memory use, or anything unexpected.
+    validations:
+      required: true

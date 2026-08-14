@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "mipmapplus",
+  "version": "${version}",
+  "name": "MipMapPlus",
+  "description": "Client-side extended mipmaps through level 10 with safe atlas fallback for Minecraft 26.2.",
+  "authors": [
+    "arogorn993-hue"
+  ],
+  "contributors": [
+    "sidit77 (original Better Mipmaps)"
+  ],
+  "contact": {
+    "homepage": "https://github.com/arogorn993-hue/MipMapPlus",
+    "sources": "https://github.com/arogorn993-hue/MipMapPlus",
+    "issues": "https://github.com/arogorn993-hue/MipMapPlus/issues"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "mixins": [
+    "mipmapplus.mixins.json",
+    "mipmapplus.sodium.mixins.json"
+  ],
+  "accessWidener": "mipmapplus.accesswidener",
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "java": ">=25",
+    "minecraft": "${minecraft_version}"
+  },
+  "suggests": {
+    "sodium": "*"
+  }
+}

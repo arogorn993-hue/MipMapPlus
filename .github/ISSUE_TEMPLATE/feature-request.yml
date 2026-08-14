@@ -1,0 +1,38 @@
+name: Feature request
+description: Suggest a specific improvement
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Questions and early ideas are usually better suited to GitHub Discussions. Use this form for a concrete proposal.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or use case
+      description: What limitation would this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+      description: Describe what MipMapPlus should do.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Note any workarounds or different approaches.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing issues and discussions first.
+          required: true
+        - label: This request is about client-side mipmap behavior.
+          required: true
